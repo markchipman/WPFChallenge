@@ -1,0 +1,2 @@
+# WPFChallenge
+This code base was prepared as an job interview exercise for the employers review... I was given a sample screenshot of a simple WPF application with a button labeled "Click Me!".  Upon tapping the button, a message dialog is shown containing "Hello, world." and providing only an ok button to close it.  I was instructed to recreate the sample project structure and provide working unit tests to test the environment.
