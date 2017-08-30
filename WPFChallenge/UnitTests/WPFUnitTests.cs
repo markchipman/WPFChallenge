@@ -5,6 +5,10 @@ using Moq;
 
 namespace UnitTests
 {
+
+    // Possible Example found -- https://www.codeproject.com/Articles/36745/Showing-Dialogs-When-Using-the-MVVM-Pattern
+    // Possible Example found -- https://www.codeproject.com/Articles/32063/Developing-and-Testing-a-WPF-Application-Using-Rou
+
     [TestClass]
     public class WPFUnitTests
     {
@@ -17,7 +21,7 @@ namespace UnitTests
         }
 
         [TestMethod]
-        public void Test()
+        public void MockMessageBoxTest()
         {
             _messageBox.Setup(m => m.Show("TEST"));
 
